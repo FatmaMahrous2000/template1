@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template 1</title>
+
+    <!--close icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+
+    <!--right arrow icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!--map icon-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--hand icon-->
+    
+</head>
+<body>
+   
+    <header>
+      <div class="overlay">
+        <nav class="container">
+          
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+
+            <div class="menu" id="test">
+                <ul class="hide" :class="{view:viewMenu}">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">GENERIC</a></li>
+                    <li><a href="">ELEMENTS</a></li>
+                </ul>
+
+
+                <div @click="viewMenu=true" :class="{hideLines:viewMenu, horizontalLines:!viewMenu}">
+            
+
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+                <i class="fa fa-close" @click="viewMenu=false" :class="{closeIcon:viewMenu,chideCloseIcon:!viewMenu}"></i>
+
+            </div>
+        </nav>
+
+        <div class="slider">
+
+            <h1>No Need to find,<br> This is the place on web</h1>
+            
+            <p><br>Living in today’s metropolitan world of cellular phones, mobile computers and other high-tech<br>
+                gadgets is not just hectic but very impersonal.</p>
+
+            <a href="">GET STARTED <i class="fa fa-long-arrow-right"></i></a>
+        </div>
+    </div>
+    </header>
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+    <section class="history">
+
+        <div class="container">
+
+            <h2>Glorious History</h2>
+            <p>It won’t be a bigger problem to find one video game lover in your<br> neighbor. Since the introduction of Virtual Game,</p>
+
+            <div class="content">
+                <div class="contentImg">
+                </div>
+
+                <div class="infoContent">
+                    <a href=""><i class="fa fa-book"></i>HISRORY</a>
+
+                    <a href="" class="whiteLink"><i class="fa fa-bullhorn"></i>MISSION</a>
+                 
+                    <a href="" class="whiteLink"><i class="fa fa-sun-o"></i>MISSION</a>
+
+                    <h2>History</h2>
+                    <p>Few would argue that, despite the advancements of feminism over the past three decades, 
+                        women still face a double standard when it comes to their behavior. 
+                        While men’s borderline-inappropriate behavior is often laughed off as “boys will be boys,”
+                         women face higher conduct standards – especially in the workplace. That’s why it’s crucial 
+                         that, as women, our behavior on the job is beyond reproach.Small Towns and Big StatesFor
+                          evidence of the double standard, we need look no farther than Arlington.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tools">
+
+        <div class="container">
+              <div class="item">
+                <i class="fa fa-magic" ></i>
+                <h2>Software</h2>
+              </div>
+
+              <div class="coloredItem">
+                <p>Few would argue that, despite the advancements of feminism over the past three decades.
+
+                </p>
+              </div>
+
+
+
+
+              <div class="item">
+                <i class="fa fa-hand-pointer-o"></i>
+                <h2>Front End</h2>
+              </div>
+
+              <div class="coloredItem">
+                <p>Few would argue that, despite the advancements of feminism over the past three decades.
+
+                </p>
+              </div>
+
+              
+
+
+             
+              <div class="coloredItem">
+                <p>Few would argue that, despite the advancements of feminism over the past three decades.
+
+                </p>
+              </div>
+
+              <div class="item">
+                <i class="fa fa-book"></i>
+                <h2>Wordpress</h2>
+              </div>
+
+             
+
+
+              <div class="coloredItem">
+                <p>Few would argue that, despite the advancements of feminism over the past three decades.
+
+                </p>
+              </div>
+
+              <div class="item">
+                <i class="fa fa-diamond"></i>
+                <h2>UX Design</h2>
+              </div>
+            
+        </div>
+    </section>
+
+    <!--//////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <section class="experiences">
+
+        <h1>Beautiful Experiences</h1>
+        <p>LCD screens are uniquely modern in style, and the liquid crystals<br>that make them work have allowed humanity.</p>
+
+        <div class="experiencesContent">
+    
+            <div class="experiencesImg">
+
+                <img src="images/v1.jpg">
+            </div>
+
+            <div class="experiencesImg">
+
+                <img src="images/v2.jpg">
+            </div>
+
+            <div class="experiencesInfo">
+                 <h1>Vector Illustration  </h1>
+                 <p class="bigP">LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed.</p>
+
+                 <p class="smallP">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor</p>
+
+            
+                <a href="">VIEW DETAilS</a>
+            </div>
+      
+        </div>
+        
+
+    </section>
+    <section class="projects">
+
+        <div class="header-projects">
+
+            <h1>Some Projects</h1>
+            <p>LCD screens are uniquely modern in style, and the liquid crystals<br> that make them work have allowed humanity.</p>      
+        </div>
+
+        <div class="projects-content">
+                <div class="projectImg">
+                    <img src="images/c1.jpg">
+                </div>
+                <div class="projectInfo">
+                    <h3>Vector Illustration</h3>
+
+                    <p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have 
+                        allowed humanity to create slimmer, more portable technology than we’ve ever had</p>
+                </div>
+        </div>
+    </section>
+
+
+    <!--////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    
+
+    <section class="contact">
+
+
+        <div class="headerContact">
+
+            <h1>Keep in Touch</h1>
+            <p>Most people who work in an office environment, buy computer<br> products, or have a computer at home have</p>
+        </div>
+
+        <div class="contactInputs">
+
+            <form>
+            <input type="text" placeholder="Enter your name">
+            <input type="email" placeholder="Enter email address">
+            <textarea placeholder="Message"></textarea>
+
+            <a href="">SEND MESSAGE<i class="fa fa-long-arrow-right"></i></a>
+        </form>
+        </div>
+
+    </section>
+
+
+    <!--////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <section class="search">
+
+        <h1>Together,<br> Let’s Make this happen</h1>
+
+        <div class="searchButton">
+        <input type="email" placeholder="Email address">
+        <a href="">GET STARTED<i class="fa fa-long-arrow-right"></i></a>
+        </div>
+    </section>
+
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <footer>
+        
+        <div class="topFooter container">
+
+            <div class="topFooterSection">
+                <h3>ABOUT AGENCY</h3>
+                <a href="">Managed Website</a>
+
+                <a href="">Manage Reputation</a>
+
+                <a href="">Power Tools</a>
+
+                <a href="">Marketing Service</a>
+            </div>
+
+
+            <div class="topFooterSection">
+                <h3>NAVIGATION LINKS</h3>
+                <a href="">Home</a>
+
+                <a href="">Main Features</a>
+
+                <a href="">Offered Services</a>
+
+                <a href="">Latest Portfolio</a>
+            </div>
+
+            <div class="topFooterSection">
+
+                <h3>NAVIGATION LINKS</h3>
+                <a href="">Works & Builders</a>
+
+                <a href="">Works & Wordpress</a>
+
+                <a href="">Works & Templates</a>
+
+            </div>
+
+            <div class="topFooterSection">
+                <h3>INSTAFEED</h3>
+                <div class="photos">
+                    <img src="images/i1.jpg">
+                    <img src="images/i2.jpg">
+                    <img src="images/i3.jpg">
+                    <img src="images/i4.jpg">
+                
+                </div>
+
+                <div class="photos" style="margin-top: -8px;">
+                    <img src="images/i5.jpg">
+                    <img src="images/i6.jpg">
+                    <img src="images/i7.jpg">
+                    <img src="images/i8.jpg">
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="bottomFooter container">
+
+            <p>Copyright © 2017 All rights reserved | This template is made with  by 
+                <i class="fa fa-heart-o"style="color:#f3487f"></i>
+               <a href="" style="color:#f9c400;text-decoration:none">Colorlib</a> 
+            </p>
+
+            
+            
+                <a href="" class="icons"><i class="fa fa-behance"></i></a>
+                <a href="" class="icons"><i class="fa fa-dribbble"></i></a>
+                <a href="" class="icons"><i class="fa fa-twitter"></i></a>
+                <a href="" class="icons"><i class="fa fa-facebook"></i></a>
+       </div>
+    </footer>
+
+    <script src="js/vue (1).js"></script>
+    <script src="js/app.js"></script>
+   
+</body>
+</html>
